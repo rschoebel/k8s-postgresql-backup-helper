@@ -1,4 +1,4 @@
-FROM bitnami/postgresql:11
+FROM bitnami/postgresql:12
 MAINTAINER r.schoebel@schoebel.tech
 USER root
 RUN apt update && apt install openssh-server -y
